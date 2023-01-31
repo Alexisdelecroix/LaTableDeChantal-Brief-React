@@ -1,12 +1,10 @@
 import './App.css';
-import Monheader from './components/header/Header';
-import MyPresentation from './components/presentation/Presentation';
+import Accueil from './pages/Accueil';
 
 function App() {
   return (
     <div className="App">
-     <Monheader/>
-     <MyPresentation/>
+     <Accueil/>
     </div>
   );
 }

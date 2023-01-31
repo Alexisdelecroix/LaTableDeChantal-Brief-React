@@ -1,0 +1,22 @@
+.conteneur{
+    display: flex;
+    margin-top: 50px;
+}
+
+.conteneurimg img{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    object-fit: cover;
+    margin-top: 50px;
+
+}
+
+.conteneurtext{
+    width: 100%;
+    margin: 0px 50px;
+}
+
+h1{
+    text-align: center;
+}

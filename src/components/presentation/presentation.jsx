@@ -1,4 +1,8 @@
 import React from "react";
+import restaurant from "../../images/restaurant.jpg";
+import chef from "../../images/chef.jpg";
+import './presentationStyle.css';
+
 
 
 
@@ -8,11 +12,12 @@ export default function Presentation() {
 
     return (
         <article>
-            <div>
-            <img></img>
+            <div class="conteneur">
+            <div class="conteneurimg">
+            <img src={restaurant} alt="" />
             </div>
 
-            <div>
+            <div class="conteneurtext">
                 <h1>Le restaurant</h1>
 
                 <p>Lorem ipsum dolor sit amet consectetur, 
@@ -20,14 +25,30 @@ export default function Presentation() {
                      corporis magnam nobis et, nihil alias, provident tempora 
                      numquam eligendi accusantium rem vel. Delectus nesciunt 
                      labore nemo cumque ducimus?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Necessitatibus natus consectetur
+                     corporis magnam nobis et, nihil alias, provident tempora 
+                     numquam eligendi accusantium rem vel. Delectus nesciunt 
+                     labore nemo cumque ducimus?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Necessitatibus natus consectetur
+                     corporis magnam nobis et, nihil alias, provident tempora 
+                     numquam eligendi accusantium rem vel. Delectus nesciunt 
+                     labore nemo cumque ducimus?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Necessitatibus natus consectetur
+                     corporis magnam nobis et, nihil alias, provident tempora 
+                     numquam eligendi accusantium rem vel. Delectus nesciunt 
+                     labore nemo cumque ducimus?</p>
             </div>
 
-
-            <div>
-            <img></img>
+            </div>
+            <div class="conteneur">
+            <div class="conteneurimg">
+            <img src={chef} alt="" />
             </div>
 
-            <div>
+            <div class="conteneurtext">
                 <h1>Le chef</h1>
 
                 <p>Lorem ipsum dolor sit amet consectetur, 
@@ -35,6 +56,22 @@ export default function Presentation() {
                      corporis magnam nobis et, nihil alias, provident tempora 
                      numquam eligendi accusantium rem vel. Delectus nesciunt 
                      labore nemo cumque ducimus?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Necessitatibus natus consectetur
+                     corporis magnam nobis et, nihil alias, provident tempora 
+                     numquam eligendi accusantium rem vel. Delectus nesciunt 
+                     labore nemo cumque ducimus?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Necessitatibus natus consectetur
+                     corporis magnam nobis et, nihil alias, provident tempora 
+                     numquam eligendi accusantium rem vel. Delectus nesciunt 
+                     labore nemo cumque ducimus?</p>
+                     <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Necessitatibus natus consectetur
+                     corporis magnam nobis et, nihil alias, provident tempora 
+                     numquam eligendi accusantium rem vel. Delectus nesciunt 
+                     labore nemo cumque ducimus?</p>
+            </div>
             </div>
 
         </article>
