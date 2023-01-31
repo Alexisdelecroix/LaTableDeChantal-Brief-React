@@ -14,14 +14,9 @@ export default function header() {
 
                     <ul>
                         <li>
-                            
+
                         </li>
                     </ul>
-
-
-
-
-
 
                 </header>
 
