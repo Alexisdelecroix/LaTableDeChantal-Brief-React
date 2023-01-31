@@ -1,6 +1,6 @@
 import Monheader from '../components/header/Header';
 import MyPresentation from '../components/presentation/Presentation';
-import MyFooter from '../components/footer/footer';
+import MyFooter from "../components/footer/Footer";
 import Myslide from '../components/slider/Slider';
 
 
@@ -14,8 +14,7 @@ return(
 <Monheader/>
 <Myslide/>
 <MyPresentation/>
-
-<MyFooter/>
+<MyFooter />
 </div>
 
 )

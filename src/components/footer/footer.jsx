@@ -1,12 +1,20 @@
 import React from "react";
-import Facebook from "../../images/facebook.svg"
+import './footerStyle.css';
+import Facebook from "../../images/facebook.svg";
+import Twitter from "../../images/twitter.svg";
+import Instagram from "../../images/instagram.svg";
 
 export default function footer() {
     return (
-        <article>
-            <div>
+        <footer>
+            <div className="socials">
                 <img src={Facebook} alt="" />
+                <img src={Twitter} alt="" />
+                <img src={Instagram} alt="" />
             </div>
-        </article>
+            <div className="thanks">
+                <p>Merci de votre visite</p>
+            </div>
+        </footer>
     )
 }
