@@ -1,4 +1,4 @@
-import MyFooter from "./components/footer/Footer"
+
 import './App.css';
 import Accueil from './pages/Accueil';
 
