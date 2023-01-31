@@ -1,14 +1,12 @@
 import React from "react";
-
+import Facebook from "../../images/facebook.svg"
 
 export default function footer() {
-
     return (
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <article>
+            <div>
+                <img src={Facebook} alt="" />
+            </div>
+        </article>
     )
-
 }
