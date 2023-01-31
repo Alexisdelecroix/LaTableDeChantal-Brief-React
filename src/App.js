@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-
-import Monheader from './components/header/header';
+import Monheader from './components/header/Header';
 
 function App() {
   return (

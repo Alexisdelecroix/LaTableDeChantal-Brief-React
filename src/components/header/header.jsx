@@ -1,9 +1,10 @@
 import React from "react";
+import './headerstyle.css';
 
 
 
 
-export default function header() {
+export default function Header() {
 
 
         return (
