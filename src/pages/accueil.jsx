@@ -4,11 +4,11 @@ import MyFooter from "../components/footer/Footer";
 import Myslide from '../components/slider/Slider';
 
 
+
 export default function Accueil() {
 
 
 return(
-
 
 <div>
 <Monheader/>
