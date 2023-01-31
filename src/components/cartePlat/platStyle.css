@@ -1,0 +1,32 @@
+.conteneur{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 50px;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.conteneur-entree{
+    display: flex;
+}
+
+
+.card-entree{
+
+height: 300px;
+width: 280px;
+background-color: rgb(157, 138, 138);
+
+}
+
+
+.card-plat{
+
+    height: 300px;
+    width: 280px;
+    background-color: rgb(141, 0, 0);
+    
+    }

@@ -4,6 +4,7 @@ import MyHeader from '../header/Header';
 
 export default function Plat() {
 
+
     return (
     
         <div>

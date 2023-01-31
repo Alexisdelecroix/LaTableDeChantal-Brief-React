@@ -1,6 +1,6 @@
 header{
     display: flex;
-background-color: rgb(255, 0, 200);
+background-color: rgb(183, 161, 161);
 height: 80px;
 align-items: center;
 }
@@ -9,6 +9,7 @@ align-items: center;
     width: 20%;
     display: flex;
     justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ul{
@@ -26,4 +27,5 @@ ul li{
 li a {
     text-decoration: none;
     color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

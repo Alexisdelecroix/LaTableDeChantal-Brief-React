@@ -11,7 +11,7 @@ export default function Header() {
         return (
                 <header>
                     <div className="titre">
-                    <p>La table de Chantal</p>
+                   <Link to="/"><p>La table de Chantal</p></Link>
                     </div>
 
                     <ul>
