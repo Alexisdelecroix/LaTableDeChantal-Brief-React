@@ -9,7 +9,7 @@ export default function Header() {
 
         return (
                 <header>
-                    <div class="titre">
+                    <div className="titre">
                     <p>La table de Chantal</p>
                     </div>
 
