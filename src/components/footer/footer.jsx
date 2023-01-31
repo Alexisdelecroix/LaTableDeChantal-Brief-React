@@ -4,7 +4,11 @@ import React from "react";
 export default function footer() {
 
     return (
-        <p>Merci d'avoir visité le site !</p>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     )
 
 }
