@@ -1,8 +1,29 @@
 header{
-
-background-color: red;
+    display: flex;
+background-color: rgb(255, 0, 200);
+height: 80px;
+align-items: center;
 }
 
-p{
-    color: aqua;
+.titre{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    column-gap: 15px;
+    width: 100%;
+    
+}
+ul li{
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
