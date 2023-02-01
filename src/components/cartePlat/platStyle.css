@@ -15,18 +15,80 @@
 
 
 .card-entree{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+height: 400px;
+width: 300px;
+border: 2px solid black;
+border-radius: 5%;
+padding: 0px 20px;
+transition: 0.5s;
 
-height: 300px;
-width: 280px;
-background-color: rgb(157, 138, 138);
+
 
 }
 
+.card-entree:hover{
+    box-shadow: 10px 10px 10px  rgb(183, 161, 161);
+
+    transform: scale(1.05);
+    transition: ease-in-out 0.5s;
+}
+
+.card-entree h1{
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-entree p{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.image{
+    text-align:center;
+}
+
+.image img{
+    width: 60%;
+    height: 140px;
+    object-fit: cover;
+    text-align: center;
+}
+
+
+
+.conteneur-plat{
+    display: flex;
+}
 
 .card-plat{
-
-    height: 300px;
-    width: 280px;
-    background-color: rgb(141, 0, 0);
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 0px 20px;
+    transition: 0.5s;
     
+    }
+
+    .card-plat:hover{
+        box-shadow: 10px 10px 10px  rgb(183, 161, 161);
+    
+        transform: scale(1.05);
+        transition: ease-in-out 0.5s;
+    }
+
+    .card-plat h1{
+        font-weight: 300;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .card-plat p{
+    
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }

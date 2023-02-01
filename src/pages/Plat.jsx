@@ -17,6 +17,7 @@ export default function Plat() {
 <MyEntree/>
 <h2>Nos plats</h2>
 <MyPlat/>
+<h2>Nos desserts</h2>
 <MyFooter/>
             </div>
         );

@@ -11,14 +11,14 @@ export default function Header() {
         return (
                 <header>
                     <div className="titre">
-                   <Link to="/"><p>La table de Chantal</p></Link>
+                   <Link className="Link" to="/"><p>La table de Chantal</p></Link>
                     </div>
 
                     <ul>
-                        <Link to="/"><li><a href="#">Accueil</a></li></Link>
-                       <Link to="/Plat"> <li><a href="#">Plat</a></li></Link>
-                        <Link to="/Boisson"><li><a href="#">Boisson</a></li></Link>
-                        <Link to="/Contact"><li><a href="#">Contact</a></li></Link>
+                        <Link className="Link" to="/"><li>Accueil</li></Link>
+                       <Link className="Link" to="/Plat"> <li>Plat</li></Link>
+                        <Link className="Link" to="/Boisson"><li>Boisson</li></Link>
+                        <Link className="Link" to="/Contact"><li>Contact</li></Link>
                     </ul>
 
                 </header>

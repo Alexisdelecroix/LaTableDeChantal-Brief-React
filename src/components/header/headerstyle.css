@@ -24,8 +24,17 @@ ul li{
     list-style: none;
 }
 
-li a {
+li {
     text-decoration: none;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: black;
+}
+
+
+.Link{
+    text-decoration: none;
 }
