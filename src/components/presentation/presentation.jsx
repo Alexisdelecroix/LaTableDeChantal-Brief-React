@@ -12,7 +12,7 @@ export default function Presentation() {
         </div>
 
         <div className="conteneurtext">
-          <h1>Le restaurant</h1>
+          <h3>Le restaurant</h3>
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -46,7 +46,7 @@ export default function Presentation() {
         </div>
 
         <div className="conteneurtext">
-          <h1>Le chef</h1>
+          <h3>Le chef</h3>
 
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
