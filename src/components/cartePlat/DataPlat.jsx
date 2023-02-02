@@ -150,11 +150,11 @@ const DataPlat = [
   {
     id: uuidv4,
     categorie: 4,
-    title : "Eau minérale",
-    text : "Eau minérale naturelle venant tout droit du Mont Blanc",
-    image : `https://img-3.journaldesfemmes.fr/yMxhHnh5sjHuZTb--yP8AntKqng=/1500x/smart/8d083661d9a440dcbd75075fbc3538dc/ccmcms-jdf/30776587.jpg`,
+    title: "Eau minérale",
+    text: "Eau minérale naturelle venant tout droit du Mont Blanc",
+    image: `https://img-3.journaldesfemmes.fr/yMxhHnh5sjHuZTb--yP8AntKqng=/1500x/smart/8d083661d9a440dcbd75075fbc3538dc/ccmcms-jdf/30776587.jpg`,
     alt: "",
-    prix: "15.00€"
+    prix: "15.00€",
   },
 
   {
@@ -162,9 +162,10 @@ const DataPlat = [
     categorie: 4,
     title: "Limonade",
     text: "Rafraichissez-vous avec notre excellente limonade avec des citrons pressés bien juteux",
-    image: "https://c.pxhere.com/photos/f5/89/beer_lemonade_beverage_refreshment_alcohol_summer_alcoholic_drink-1336735.jpg!d",
+    image:
+      "https://c.pxhere.com/photos/f5/89/beer_lemonade_beverage_refreshment_alcohol_summer_alcoholic_drink-1336735.jpg!d",
     alt: "",
-    prix: "12.00€"
+    prix: "12.00€",
   },
 
   {
@@ -174,7 +175,7 @@ const DataPlat = [
     text: "Café au lait pour une ambiance chaleureuse !",
     image: "https://handy.brussels/wp-content/uploads/2017/09/cafe.jpg",
     alt: "",
-    prix: "13.00€"
+    prix: "13.00€",
   },
 
   {
@@ -182,9 +183,10 @@ const DataPlat = [
     categorie: 4,
     title: "Hydromel",
     text: "Nous remettons un classique au gout du jour, l'un des premiers alcools jamais inventés, l'hydromel !",
-    image: "https://revolutionfermentation.com/wp-content/uploads/2021/09/verre-melomel-petits-fruits-613x800-1.jpg",
+    image:
+      "https://revolutionfermentation.com/wp-content/uploads/2021/09/verre-melomel-petits-fruits-613x800-1.jpg",
     alt: "",
-    prix: "18.00€"
+    prix: "18.00€",
   },
   {
     id: uuidv4,
@@ -208,10 +210,10 @@ const DataPlat = [
     id: uuidv4,
     categorie: 4,
     title: "Coca",
-    text: "",
+    text: "Le coca un vrai produit ménager",
     image: `https://c8.alamy.com/compfr/2a6gmft/une-ancienne-bouteille-verre-de-coca-servi-dans-un-beau-restaurant-avec-un-verre-de-glace-2a6gmft.jpg`,
     alt: "",
-    prix: ""
+    prix: "",
   },
   {
     id: uuidv4,
@@ -220,7 +222,7 @@ const DataPlat = [
     text: "",
     image: `https://mp.reshift.nl/zoom/B4C3EABEBDB4147860210815B9B2C47C-fanta.jpg?w=450`,
     alt: "",
-    prix: ""
+    prix: "",
   },
   {
     id: uuidv4,
@@ -229,7 +231,7 @@ const DataPlat = [
     text: "",
     image: `https://media.carrefour.fr/medias/ab6ec6e646463b16aaa564c9314458a2/p_540x540/05060335632302-h1n1-s01.jpg`,
     alt: "",
-    prix: ""
+    prix: "",
   },
   {
     id: uuidv4,
@@ -238,7 +240,7 @@ const DataPlat = [
     text: "",
     image: `https://proxi-haironville.fr/3752-large_default/boisson-tropical-oasis.jpg`,
     alt: "",
-    prix: ""
+    prix: "",
   },
   {
     id: uuidv4,
@@ -247,7 +249,7 @@ const DataPlat = [
     text: "",
     image: `https://upload.wikimedia.org/wikipedia/commons/7/78/Vin_blanc_au_restaurant_Czerwone_Drzwi_%28Porte_Rouge%29_de_Gdansk.jpg`,
     alt: "",
-    prix: ""
+    prix: "",
   },
 ];
 

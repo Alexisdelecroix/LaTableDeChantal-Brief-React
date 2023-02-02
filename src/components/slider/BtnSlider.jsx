@@ -12,8 +12,4 @@ return (
         <img src={direction === "next" ? rightArrow : leftArrow} alt=""/>
     </button>
 )
-
-
-
-
 }
