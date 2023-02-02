@@ -12,6 +12,8 @@ export default function Plat() {
 
             <label for="nom">Nom:<span>*</span></label>
             <input type="text" name="nom" id="nom" pattern="[A-Za-z]+" placeholder="Grande" required></input>
+
+            
         </form>
 
     )

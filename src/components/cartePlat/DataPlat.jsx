@@ -149,32 +149,105 @@ const DataPlat = [
   },
   {
     id: uuidv4,
-   
-    
+    categorie: 4,
+    title : "Eau minérale",
+    text : "Eau minérale naturelle venant tout droit du Mont Blanc",
+    image : `https://img-3.journaldesfemmes.fr/yMxhHnh5sjHuZTb--yP8AntKqng=/1500x/smart/8d083661d9a440dcbd75075fbc3538dc/ccmcms-jdf/30776587.jpg`,
+    alt: "",
+    prix: "15.00€"
   },
 
   {
     id: uuidv4,
-   
+    categorie: 4,
+    title: "Limonade",
+    text: "Rafraichissez-vous avec notre excellente limonade avec des citrons pressés bien juteux",
+    image: "https://c.pxhere.com/photos/f5/89/beer_lemonade_beverage_refreshment_alcohol_summer_alcoholic_drink-1336735.jpg!d",
+    alt: "",
+    prix: "12.00€"
   },
 
   {
     id: uuidv4,
-    
+    categorie: 4,
+    title: "Café",
+    text: "Café au lait pour une ambiance chaleureuse !",
+    image: "https://handy.brussels/wp-content/uploads/2017/09/cafe.jpg",
+    alt: "",
+    prix: "13.00€"
   },
 
   {
     id: uuidv4,
-    
+    categorie: 4,
+    title: "Hydromel",
+    text: "Nous remettons un classique au gout du jour, l'un des premiers alcools jamais inventés, l'hydromel !",
+    image: "https://revolutionfermentation.com/wp-content/uploads/2021/09/verre-melomel-petits-fruits-613x800-1.jpg",
+    alt: "",
+    prix: "18.00€"
   },
   {
     id: uuidv4,
     categorie: 4,
     title: "Vin rouge",
     text: "Spécialité vin rouge années 1995",
-    image: `https://www.cuisineactuelle.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2019.2F10.2F03.2F63e66490-bc5a-416b-bb48-3dbdd514837c.2Ejpeg/422x316/quality/80/crop-from/center/focus-point/764%2C543/jarrets-d-agneau.jpeg`,
+    image: `https://www.lhotellerie-restauration.fr/journal/produit-boisson/2019-12/img/thinkstockphotos-6152692.jpg`,
     alt: "",
     prix: "19.99€",
+  },
+  {
+    id: uuidv4,
+    categorie: 4,
+    title: "Cocktail",
+    text: "Un bon cocktail",
+    image: `https://leblogdelili.fr/wp-content/uploads/2018/09/Hotel-Marignan-restaurant-limon-5.jpg`,
+    alt: "",
+    prix: "16.99€",
+  },
+  {
+    id: uuidv4,
+    categorie: 4,
+    title: "Coca",
+    text: "",
+    image: `https://c8.alamy.com/compfr/2a6gmft/une-ancienne-bouteille-verre-de-coca-servi-dans-un-beau-restaurant-avec-un-verre-de-glace-2a6gmft.jpg`,
+    alt: "",
+    prix: ""
+  },
+  {
+    id: uuidv4,
+    categorie: 4,
+    title: "Fanta",
+    text: "",
+    image: `https://mp.reshift.nl/zoom/B4C3EABEBDB4147860210815B9B2C47C-fanta.jpg?w=450`,
+    alt: "",
+    prix: ""
+  },
+  {
+    id: uuidv4,
+    categorie: 4,
+    title: "Monster Blanche",
+    text: "",
+    image: `https://media.carrefour.fr/medias/ab6ec6e646463b16aaa564c9314458a2/p_540x540/05060335632302-h1n1-s01.jpg`,
+    alt: "",
+    prix: ""
+  },
+  {
+    id: uuidv4,
+    categorie: 4,
+    title: "Oasis",
+    text: "",
+    image: `https://proxi-haironville.fr/3752-large_default/boisson-tropical-oasis.jpg`,
+    alt: "",
+    prix: ""
+  },
+  {
+    id: uuidv4,
+    categorie: 4,
+    title: "Vin Blanc",
+    text: "",
+    image: `https://upload.wikimedia.org/wikipedia/commons/7/78/Vin_blanc_au_restaurant_Czerwone_Drzwi_%28Porte_Rouge%29_de_Gdansk.jpg`,
+    alt: "",
+    prix: ""
   },
 ];
 

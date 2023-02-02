@@ -10,11 +10,9 @@
   
 }
 
-
 .conteneur-entree {
   display: flex;
 }
-
 
 .image {
   text-align: center;
@@ -26,8 +24,6 @@
   object-fit: cover;
   text-align: center;
 }
-
-
 
 .conteneur-plat {
   display: flex;
