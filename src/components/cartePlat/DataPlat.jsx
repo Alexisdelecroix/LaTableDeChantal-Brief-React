@@ -211,7 +211,7 @@ const DataPlat = [
     text: "",
     image: `https://c8.alamy.com/compfr/2a6gmft/une-ancienne-bouteille-verre-de-coca-servi-dans-un-beau-restaurant-avec-un-verre-de-glace-2a6gmft.jpg`,
     alt: "",
-    prix: ""
+    prix: "14.00€"
   },
   {
     id: uuidv4,
@@ -220,16 +220,16 @@ const DataPlat = [
     text: "",
     image: `https://mp.reshift.nl/zoom/B4C3EABEBDB4147860210815B9B2C47C-fanta.jpg?w=450`,
     alt: "",
-    prix: ""
+    prix: "1.00€"
   },
   {
     id: uuidv4,
     categorie: 4,
-    title: "Monster Blanche",
+    title: "Monster",
     text: "",
     image: `https://media.carrefour.fr/medias/ab6ec6e646463b16aaa564c9314458a2/p_540x540/05060335632302-h1n1-s01.jpg`,
     alt: "",
-    prix: ""
+    prix: "24.00€"
   },
   {
     id: uuidv4,
@@ -238,7 +238,7 @@ const DataPlat = [
     text: "",
     image: `https://proxi-haironville.fr/3752-large_default/boisson-tropical-oasis.jpg`,
     alt: "",
-    prix: ""
+    prix: "-5.00€ (1 verre par personne)"
   },
   {
     id: uuidv4,
@@ -247,7 +247,7 @@ const DataPlat = [
     text: "",
     image: `https://upload.wikimedia.org/wikipedia/commons/7/78/Vin_blanc_au_restaurant_Czerwone_Drzwi_%28Porte_Rouge%29_de_Gdansk.jpg`,
     alt: "",
-    prix: ""
+    prix: "50.00€"
   },
 ];
 
