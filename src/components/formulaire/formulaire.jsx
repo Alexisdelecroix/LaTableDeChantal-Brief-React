@@ -6,9 +6,13 @@ export default function Plat() {
 
     return (
     
-        <div>
-        <h1>dfsdsf</h1>
-        <h2>fdssf</h2>
-        </div>
+        <form action="">
+            <label for="prenom">Prénom:<span>*</span></label>
+            <input type="text" name="prenom" id="prenom" pattern="[A-Za-z]+" title="Le prénom ne peut contenir que des lettres." placeholder="Jenna" required></input>
+
+            <label for="nom">Nom:<span>*</span></label>
+            <input type="text" name="nom" id="nom" pattern="[A-Za-z]+" placeholder="Grande" required></input>
+        </form>
+
     )
 }

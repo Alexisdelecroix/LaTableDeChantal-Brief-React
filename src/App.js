@@ -1,9 +1,10 @@
 import './App.css';
-import Accueil from './pages/Accueil';
 import {Routes, Route} from "react-router-dom"
 import Plat from './pages/Plat';
 import Boisson from './pages/Boisson';
 import Contact from './pages/Contact';
+import Accueil from './pages/Accueil';
+import Formulaire from './components'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path='/Plat' element={<Plat/>}></Route>
       <Route path='/Boisson' element={<Boisson/>}></Route>
       <Route path='/Contact' element={<Contact/>}></Route>
+      <Route path='/Formulaire' element={<Formulaire/>}></Route>
       </Routes>
     </div>
   );
