@@ -1,5 +1,4 @@
 import React from 'react';
-import MyHeader from '../header/Header';
 import '../cartePlat/platStyle.css'
 
 import { v4 as uuidv4 } from "uuid";

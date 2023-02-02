@@ -10,7 +10,7 @@ import DataPlat from './DataPlat';
 
 export default function Entree() {
     const data =DataPlat.map(donnees => {
-      if (donnees.categorie === 2)
+      if (donnees.categorie === 1)
     return (
         
             <div className="card-plat">

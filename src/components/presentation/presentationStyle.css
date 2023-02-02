@@ -24,12 +24,14 @@
 
 }
 
-h1{
+.conteneurtext h3{
+
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(225, 148, 53);
 }
 
 
-p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+.conteneurtext p{
+    font-family: 'Libre Baskerville', serif;
 }
