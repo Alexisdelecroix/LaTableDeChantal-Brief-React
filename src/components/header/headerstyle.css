@@ -3,6 +3,7 @@ header{
 background-color: rgb(183, 161, 161);
 height: 80px;
 align-items: center;
+border-bottom: 1px solid black;
 }
 
 .titre{
