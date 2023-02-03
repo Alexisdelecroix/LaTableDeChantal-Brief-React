@@ -7,9 +7,9 @@ export default function Boisson() {
   return (
     <main>
       <Myheader />
-      <section>
+      <section className="titre-plat">
         <h1>Les boissons</h1>
-        <article className="conteneur">
+        <article className="conteneur-plat">
         <MyBoisson />
         </article>
       </section>

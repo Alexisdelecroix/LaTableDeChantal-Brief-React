@@ -20,7 +20,10 @@ export default function footer() {
         <a href="https://www.instagram.com/?hl=fr" target="blank">
           <img src={Instagram} alt="" />
         </a>
+        <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_net0ope9.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+       
       </div>
+     
       <div className="thanks">
         <p>Merci de votre visite</p>
       </div>

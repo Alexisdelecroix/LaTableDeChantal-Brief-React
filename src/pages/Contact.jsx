@@ -9,7 +9,10 @@ export default function Plat() {
   return (
     <main>
       <Myheader />
+      <section className="titre-plat">
+        <h1>Nous contacter</h1>
       <MyContact />
+      </section>
       <MyFooter />
     </main>
   );

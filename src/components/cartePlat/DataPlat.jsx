@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const DataPlat = [
   {
-    id: uuidv4,
+    id: uuidv4(),
     categorie: 1,
     title: "Filet de Saumon fumée",
     text: "Viens gouter notre saumon",
@@ -14,7 +14,7 @@ const DataPlat = [
   },
 
   {
-    id: uuidv4,
+    id: uuidv4(),
     categorie: 1,
     title: "Salade de mangue verte",
     text: "Pour donner un petit côté ensoleillé",
@@ -123,7 +123,7 @@ const DataPlat = [
     id: uuidv4,
     categorie: 3,
     title: "Ile flottante",
-    text: "",
+    text: "Pour se sentir flotter",
     image: `https://img.cuisineaz.com/660x660/2013/12/20/i78006-iles-flottantes-faciles.webp`,
     alt: "",
     prix: "4.99€",
@@ -229,7 +229,7 @@ const DataPlat = [
     categorie: 4,
     title: "Monster",
     text: "Pour être énergisé",
-    image: `https://media.carrefour.fr/medias/ab6ec6e646463b16aaa564c9314458a2/p_540x540/05060335632302-h1n1-s01.jpg`,
+    image: `https://i.ytimg.com/vi/3g8jce1MPr4/maxresdefault.jpg`,
     alt: "",
     prix: "24.00€"
   },

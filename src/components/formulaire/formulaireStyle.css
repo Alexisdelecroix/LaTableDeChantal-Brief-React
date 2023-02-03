@@ -1,18 +1,23 @@
 .conteneurContact {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 aside {
   margin-left: 20px;
+  box-shadow: 0px 0px 10px gray;
   width: 600px;
-  height: 100vh;
+  height: 800px;
+  margin-top: 40px;
+  background-color: rgba(255, 252, 232, 1);
+  border-radius: 25px;
 }
 
 aside h3 {
+  font-family: "Libre Baskerville", serif;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(225, 148, 53);
   margin-top: 50px;
 }
@@ -24,15 +29,23 @@ aside p {
 }
 
 .conteneurForm {
-  height: 600px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px gray;
+  margin: 40px;
+  padding: 0px 30px;
+  height: 800px;
   margin-left: 50px;
+  background-color: rgba(255, 252, 232, 1);
 }
 
-fieldset {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
+.conteneurForm h2 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(225, 148, 53);
+  margin-top: 30px;
 }
+
 
 .conteneurForm label {
   width: 200px;
@@ -45,18 +58,66 @@ fieldset {
 
 .position {
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  gap: 60px;
   margin: 5px auto;
 }
 
 .positionArea {
   margin-top: 30px;
   text-align: center;
+  resize: none;
 }
+
+.positionArea textarea{
+  resize: none;
+  background-color: antiquewhite;
+}
+
 .positionMap {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
+
+.animation{
+margin-top: 15px;
+  height: 160px;
+  display: flex;
+}
+
+input{
+  padding: 5px 0px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid black;
+  font-family: "Libre Baskerville", serif;
+}
+label{
+  margin: 2px 0px;
+  font-family: "Libre Baskerville", serif;
+}
+
+#button{
+  width: 50%;
+  margin:auto;
+  margin-top: 10px;
+  display: flex;
+  border: none;
+  background-color:rgb(225, 148, 53);
+  border-radius: 0%;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+#button:hover{
+  width: 70%;
+  border-radius: 40%;
+}
+
+
+

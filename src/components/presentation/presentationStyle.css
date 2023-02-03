@@ -1,20 +1,22 @@
-.conteneur {
+.conteneur-presentation {
   display: flex;
+  justify-content: center;
+  column-gap: 150px;
   margin-top: 50px;
+  margin-bottom: 50px;
   flex-wrap: wrap;
 }
+
 
 .conteneurimg img {
   display: flex;
   margin-left: 60px;
-
   width: 500px;
   object-fit: cover;
   margin-top: 50px;
 }
 
 .conteneurtext {
-  margin: auto;
   width: 800px;
   min-width: 300px;
   padding: 0px 30px;

@@ -1,9 +1,5 @@
-import React from "react";
-import MyHeader from "../header/Header";
 import "./formulaireStyle.css";
 import Mymap from "../formulaire/Maps";
-
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
 export default function Plat() {
   return (
@@ -17,14 +13,12 @@ export default function Plat() {
       </aside>
 
       <form className="conteneurForm" action="">
-        <h1>Formulaire de contact</h1>
-        <fieldset>
-          <legend>Nous contacter</legend>
-          <div className="position">
-            <label for="prenom">
+        <h2>Formulaire de contact</h2>
+                  <div className="position">
+            <label htmlFor="prenom">
               Prénom:<span>*</span>
             </label>
-            <label for="nom">
+            <label htmlFor="nom">
               Nom:<span>*</span>
             </label>
           </div>
@@ -49,10 +43,10 @@ export default function Plat() {
             ></input>
           </div>
           <div className="position">
-            <label for="email">
+            <label htmlFor="email">
               Email :<span>*</span>
             </label>
-            <label for="title">
+            <label htmlFor="title">
               Sujet :<span>*</span>
             </label>
           </div>
@@ -72,13 +66,14 @@ export default function Plat() {
             />
           </div>
           <div className="positionArea">
-            <label for="message">Votre message :</label> <br />
+            <label htmlFor="message">Votre message :</label> <br />
             <textarea type="text" name="message" rows="15" cols="70" />
           </div>
-          <div className="position">
-            <input type="submit" />
-          </div>
-        </fieldset>
+            <input id="button" type="submit" />
+        <div className="animation">
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_iyocvb9g.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+          <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_1dfplvlq.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+          <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_0cwwprun.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player></div>
       </form>
     </section>
   );

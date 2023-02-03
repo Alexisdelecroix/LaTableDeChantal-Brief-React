@@ -11,16 +11,16 @@ export default function Plat() {
   return (
     <main>
       <Myheader />
-      <section>
+      <section className="titre-plat">
       <h1>La carte des plats</h1>
 
       <h2>Nos entrées</h2>
       
-     <article className="conteneur"> <MyEntree /></article>
+     <article className="conteneur-plat"> <MyEntree /></article>
       <h2>Nos plats</h2>
-      <artcile className="conteneur"> <MyPlat /></artcile>
+      <article className="conteneur-plat"> <MyPlat /></article>
       <h2>Nos desserts</h2>
-      <artcile className="conteneur"> <MyDessert /></artcile>
+      <article className="conteneur-plat"> <MyDessert /></article>
       <MyFooter />
       </section>
     </main>

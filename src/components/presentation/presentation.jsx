@@ -6,7 +6,7 @@ import "./presentationStyle.css";
 export default function Presentation() {
   return (
     <article>
-      <div className="conteneur">
+      <div className="conteneur-presentation">
         <div className="conteneurimg">
           <img src={restaurant} alt="" />
         </div>
@@ -40,7 +40,7 @@ export default function Presentation() {
           </p>
         </div>
       </div>
-      <div className="conteneur">
+      <div className="conteneur-presentation">
         <div className="conteneurimg">
           <img src={chef} alt="" />
         </div>

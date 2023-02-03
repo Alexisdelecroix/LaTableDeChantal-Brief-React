@@ -1,17 +1,21 @@
 header {
   display: flex;
-  background-color: rgb(183, 161, 161);
+  background-color: #fcbf49;
   height: 80px;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1000;
+ 
 }
 
 .titre {
   width: 20%;
   display: flex;
   justify-content: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 ul {
@@ -28,11 +32,10 @@ ul li {
 li {
   text-decoration: none;
   color: black;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Libre Baskerville", serif;
 }
 
-p {
+header p {
   color: black;
 }
 
