@@ -219,7 +219,7 @@ const DataPlat = [
     id: uuidv4,
     categorie: 4,
     title: "Fanta",
-    text: "",
+    text: "Pour vous sentir fantastique",
     image: `https://mp.reshift.nl/zoom/B4C3EABEBDB4147860210815B9B2C47C-fanta.jpg?w=450`,
     alt: "",
     prix: "1.00€"
@@ -228,7 +228,7 @@ const DataPlat = [
     id: uuidv4,
     categorie: 4,
     title: "Monster",
-    text: "",
+    text: "Pour être énergisé",
     image: `https://media.carrefour.fr/medias/ab6ec6e646463b16aaa564c9314458a2/p_540x540/05060335632302-h1n1-s01.jpg`,
     alt: "",
     prix: "24.00€"
@@ -237,7 +237,7 @@ const DataPlat = [
     id: uuidv4,
     categorie: 4,
     title: "Oasis",
-    text: "",
+    text: "la meilleure boisson non-gazeuse",
     image: `https://proxi-haironville.fr/3752-large_default/boisson-tropical-oasis.jpg`,
     alt: "",
     prix: "-5.00€ (1 verre par personne)"
@@ -246,7 +246,7 @@ const DataPlat = [
     id: uuidv4,
     categorie: 4,
     title: "Vin Blanc",
-    text: "",
+    text: "Le meilleur vin de ces 30 dernières années",
     image: `https://upload.wikimedia.org/wikipedia/commons/7/78/Vin_blanc_au_restaurant_Czerwone_Drzwi_%28Porte_Rouge%29_de_Gdansk.jpg`,
     alt: "",
     prix: "50.00€"
