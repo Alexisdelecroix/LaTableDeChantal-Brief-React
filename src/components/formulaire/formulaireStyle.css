@@ -1,33 +1,62 @@
-.conteneurForm{
-    display: flex;
-    justify-content: center;
-    margin: 50px auto;
-    width: 50%; 
+.conteneurContact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-fieldset{
-    display: flex;
-    flex-direction:column; 
-    padding-top: 20px;
+aside {
+  margin-left: 20px;
+  width: 600px;
+  height: 100vh;
 }
 
-.conteneurForm label{
-    width: 200px; 
-    text-align: center;
-    
+aside h3 {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(225, 148, 53);
+  margin-top: 50px;
 }
 
-.conteneurForm input{
-    width: 200px;
+aside p {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
 }
 
-.position{
-    display: flex;
-    gap: 30px;
-    margin: 5px auto;
+.conteneurForm {
+  height: 600px;
+  margin-left: 50px;
 }
 
-.positionMap{
-    display: flex;
-    justify-content: center;
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.conteneurForm label {
+  width: 200px;
+  text-align: center;
+}
+
+.conteneurForm input {
+  width: 200px;
+}
+
+.position {
+  display: flex;
+  gap: 30px;
+  margin: 5px auto;
+}
+
+.positionArea {
+  margin-top: 30px;
+  text-align: center;
+}
+.positionMap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
